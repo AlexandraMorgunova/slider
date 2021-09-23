@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+
+}
+ul,
+ol,
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    background-color: rgb(146, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding:30px;
+    min-height: 100%;
+}
+.title{
+    color:blanchedalmond;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 0px 30px 0px;
+}
+.image-slider{
+    padding:30px 0 70px 0
+}
+.image-slider__wrapper{
+
+}
+.image-slider__slide{}
+.image-slider__image{
+    text-align: center;
+}
+.image-slider__image img{
+    max-width: 100%;
+}
+ .image-slider .swiper-button-next::after,
+ .image-slider .swiper-button-prev::after
+{
+    color:rgb(152, 201, 104);
+    font-size: 80px;
+    
+}
+.image-slider .swiper-pagination {
+    font-size: 40px;
+}
+.image-slider .swiper-pagination-bullet {
+    width: 50px;
+    height: 60px;
+    line-height: 20px;
+    font-size: 40px;
+    background-color: cornsilk;
+}
+.swiper-pagination-total,
+.swiper-pagination-current{
+    font-size: 50px;
+}
